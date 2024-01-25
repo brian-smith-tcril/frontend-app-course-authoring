@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { useToggle } from '@edx/paragon';
+import { useToggle } from '@openedx/paragon';
 import { useNavigate } from 'react-router-dom';
 import { getConfig } from '@edx/frontend-platform';
 

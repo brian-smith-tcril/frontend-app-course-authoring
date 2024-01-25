@@ -4,11 +4,11 @@ import {
   Button,
   OverlayTrigger,
   Tooltip,
-} from '@edx/paragon';
+} from '@openedx/paragon';
 import {
   ArrowDropDown as ArrowDownIcon,
   ArrowDropUp as ArrowUpIcon,
-} from '@edx/paragon/icons';
+} from '@openedx/paragon/icons';
 import messages from './messages';
 
 const TitleButton = ({

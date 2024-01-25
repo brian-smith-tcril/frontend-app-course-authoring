@@ -9,9 +9,8 @@ import {
   Icon, IconButton,
   Sheet,
   TransitionReplace,
-} from '@edx/paragon';
-import { ChevronLeft, ChevronRight, Close } from '@edx/paragon/icons';
-import AITranslationsComponent from '@edx/frontend-component-ai-translations-edx';
+} from '@openedx/paragon';
+import { ChevronLeft, ChevronRight, Close } from '@openedx/paragon/icons';
 import OrderTranscriptForm from './OrderTranscriptForm';
 import messages from './messages';
 import {
@@ -113,16 +112,6 @@ const TranscriptSettings = ({
               )}
             </TransitionReplace>
           </>
-        )}
-        {(!transcriptType && isAiTranslationsEnabled) && (
-          <TransitionReplace>
-            <AITranslationsComponent
-              setIsAiTranslations={setIsAiTranslations}
-              closeTranscriptSettings={closeTranscriptSettings}
-              courseId={courseId}
-              key="ai-component"
-            />
-          </TransitionReplace>
         )}
       </div>
     </Sheet>
