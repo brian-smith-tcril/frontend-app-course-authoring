@@ -6,11 +6,11 @@ import {
   Form,
   Icon,
   IconButton,
-} from '@edx/paragon';
+} from '@openedx/paragon';
 import {
   MoreVert as MoveVertIcon,
   EditOutline as EditIcon,
-} from '@edx/paragon/icons';
+} from '@openedx/paragon/icons';
 
 import { useEscapeClick } from '../../hooks';
 import { ITEM_BADGE_STATUS } from '../constants';

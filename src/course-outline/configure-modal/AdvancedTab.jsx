@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import moment from 'moment';
-import { Form } from '@edx/paragon';
+import { Form } from '@openedx/paragon';
 import { FormattedMessage, injectIntl } from '@edx/frontend-platform/i18n';
 import messages from './messages';
 

@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { useIntl } from '@edx/frontend-platform/i18n';
 import {
   Button, Hyperlink, SelectMenu, MenuItem, Stack,
-} from '@edx/paragon';
+} from '@openedx/paragon';
 import { AppContext } from '@edx/frontend-platform/react';
 
 import { useHelpUrls } from '../../help-urls/hooks';
