@@ -1,11 +1,11 @@
 import PropTypes from 'prop-types';
 import { useSelector } from 'react-redux';
 import { useIntl } from '@edx/frontend-platform/i18n';
-import { Dropdown, Icon } from '@edx/paragon';
+import { Dropdown, Icon } from '@openedx/paragon';
 import {
   ArrowDropDown as ArrowDropDownIcon,
   ChevronRight as ChevronRightIcon,
-} from '@edx/paragon/icons';
+} from '@openedx/paragon/icons';
 
 import { useCourseOutline } from '../../course-outline/hooks';
 import { getCourseUnitData } from '../data/selectors';

@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { useIntl } from '@edx/frontend-platform/i18n';
-import { Icon, Truncate } from '@edx/paragon';
+import { Icon, Truncate } from '@openedx/paragon';
 import classNames from 'classnames';
 import { ITEM_BADGE_STATUS } from '../constants';
 import { getItemStatusBadgeContent } from '../utils';
