@@ -408,35 +408,36 @@ describe('Videos page', () => {
               .toHaveProperty('checked', true);
           });
 
-          // 
-          // This is failing and I (Brian Smith) have been unable to get the videos page into a state
-          // where I can test this locally. There are no instructions for setting up video uploads within
-          // a dev environment, so I have only ever seen a Dropzone on the videos page.
-          // 
-          // it('should remove Transcribed filter chip', async () => {
-          //   const transcribedCheckboxFilter = screen.getByText(videoMessages.transcribedCheckboxLabel.defaultMessage);
-          //   fireEvent.click(transcribedCheckboxFilter);
+          /*
+          This is failing and I (Brian Smith) have been unable to get the videos page into a state
+          where I can test this locally. There are no instructions for setting up video uploads within
+          a dev environment, so I have only ever seen a Dropzone on the videos page.
 
-          //   await waitFor(() => {
-          //     fireEvent.click(screen.getByText(messages.applySortButton.defaultMessage));
-          //   });
+          it('should remove Transcribed filter chip', async () => {
+            const transcribedCheckboxFilter = screen.getByText(videoMessages.transcribedCheckboxLabel.defaultMessage);
+            fireEvent.click(transcribedCheckboxFilter);
 
-          //   const imageFilterChip = screen.getByTestId('icon-after');
-          //   fireEvent.click(imageFilterChip);
+            await waitFor(() => {
+              fireEvent.click(screen.getByText(messages.applySortButton.defaultMessage));
+            });
 
-          //   expect(screen.queryByText(videoMessages.transcribedCheckboxLabel.defaultMessage)).toBeNull();
-          // });
+            const imageFilterChip = screen.getByTestId('icon-after');
+            fireEvent.click(imageFilterChip);
+
+            expect(screen.queryByText(videoMessages.transcribedCheckboxLabel.defaultMessage)).toBeNull();
+          });
+          */
         });
       });
     });
 
     describe('card menu actions', () => {
       describe('Info', () => {
-        // 
+        //
         // This is failing and I (Brian Smith) have been unable to get the videos page into a state
         // where I can test this locally. There are no instructions for setting up video uploads within
         // a dev environment, so I have only ever seen a Dropzone on the videos page.
-        // 
+        //
         // it('should open video info', async () => {
         //   await mockStore(RequestStatus.SUCCESSFUL);
 
@@ -464,11 +465,11 @@ describe('Videos page', () => {
         //   expect(screen.getByText('subsection - unit / block')).toBeVisible();
         // });
 
-        // 
+        //
         // This is failing and I (Brian Smith) have been unable to get the videos page into a state
         // where I can test this locally. There are no instructions for setting up video uploads within
         // a dev environment, so I have only ever seen a Dropzone on the videos page.
-        // 
+        //
         // it('should open video info modal and show info tab', async () => {
         //   await mockStore(RequestStatus.SUCCESSFUL);
         //   const videoMenuButton = screen.getByTestId('file-menu-dropdown-mOckID1');
@@ -487,11 +488,11 @@ describe('Videos page', () => {
         //   expect(infoTab).toHaveClass('active');
         // });
 
-        // 
+        //
         // This is failing and I (Brian Smith) have been unable to get the videos page into a state
         // where I can test this locally. There are no instructions for setting up video uploads within
         // a dev environment, so I have only ever seen a Dropzone on the videos page.
-        // 
+        //
         // it('should open video info modal and show transcript tab', async () => {
         //   await mockStore(RequestStatus.SUCCESSFUL);
         //   const videoMenuButton = screen.getByTestId('file-menu-dropdown-mOckID1');
@@ -513,11 +514,11 @@ describe('Videos page', () => {
         //   expect(transcriptTab).toHaveClass('active');
         // });
 
-        // 
+        //
         // This is failing and I (Brian Smith) have been unable to get the videos page into a state
         // where I can test this locally. There are no instructions for setting up video uploads within
         // a dev environment, so I have only ever seen a Dropzone on the videos page.
-        // 
+        //
         // it('should show transcript error', async () => {
         //   await mockStore(RequestStatus.SUCCESSFUL);
         //   const videoMenuButton = screen.getByTestId('file-menu-dropdown-mOckID3');
