@@ -1,0 +1,22 @@
+@edx/frontend-app-course-authoring@0.1.0 /home/bsmith/code/frontend-app-course-authoring
+├─┬ @edx/frontend-build@13.0.5
+├─┬ @edx/frontend-component-ai-translations@1.4.0
+│ ├── @edx/paragon@21.5.6 deduped
+├─┬ @edx/frontend-component-footer@12.6.1
+│ ├── @edx/paragon@21.5.6 deduped
+├─┬ @edx/frontend-component-header@4.10.1
+│ ├── @edx/paragon@21.5.6 deduped
+├─┬ @edx/frontend-lib-content-components@1.178.2
+│ ├── @edx/paragon@21.5.6 deduped
+│ ├─┬ frontend-components-tinymce-advanced-plugins@1.0.2
+│ │ ├─┬ @edx/frontend-build@12.8.27
+├─┬ @edx/frontend-platform@5.6.1
+│ ├── @edx/frontend-build@13.0.5 deduped
+│ ├── @edx/paragon@21.5.6 deduped
+├─┬ @edx/paragon@21.5.6
+├─┬ @edx/react-unit-test-utils@1.7.0
+│ ├── @edx/frontend-build@13.0.5 deduped
+│ ├─┬ @edx/frontend-platform@4.6.0
+│ │ ├── @edx/frontend-build@13.0.5 deduped
+│ │ ├── @edx/paragon@20.46.3 deduped
+│ ├─┬ @edx/paragon@20.46.3

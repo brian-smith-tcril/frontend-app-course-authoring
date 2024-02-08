@@ -102,5 +102,10 @@
   },
   "peerDependencies": {
     "decode-uri-component": ">=0.2.2"
+  },
+  "overrides": {
+    "@testing-library/user-event": {
+      "@testing-library/dom": "^8.0.0"
+    }
   }
 }
