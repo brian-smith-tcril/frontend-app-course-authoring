@@ -48,7 +48,7 @@
     "@edx/frontend-component-footer": "^14.6.0",
     "@edx/frontend-component-header": "^6.2.0",
     "@edx/frontend-enterprise-hotjar": "^7.2.0",
-    "@edx/frontend-platform": "^8.3.1",
+    "@edx/frontend-platform": "github:brian-smith-tcril/frontend-platform#6cefbf5e8cc7dead9d2d4ae2feb6247d0b0a7a0f",
     "@edx/openedx-atlas": "^0.7.0",
     "@openedx-plugins/course-app-calculator": "file:plugins/course-apps/calculator",
     "@openedx-plugins/course-app-edxnotes": "file:plugins/course-apps/edxnotes",
